@@ -1,0 +1,33 @@
+header {
+    background: #d6f8ff;
+    text-align: center;
+    border: 2px solid;
+    border-color: Black;
+}
+
+body {
+    background: #99ccff;
+}
+
+h1 {
+        text-align: center;
+}
+
+.main-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-item {
+   min-width: 550px;
+   max-width: 550px;
+   margin: 0.4rem 0.8rem;
+   transition: box-shadow 0.3s;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
+   text-align: center;
+   background: #d6f8ff;
+}
+
+.card-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+}
